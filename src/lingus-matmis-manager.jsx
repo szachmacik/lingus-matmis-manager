@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const LingusMat misManager = () => {
+const LingusMisManager = () => {
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(false);
   const [selectedContest, setSelectedContest] = useState('LINGUŚ');
@@ -456,4 +456,4 @@ const LingusMat misManager = () => {
   );
 };
 
-export default LingusMat misManager;
+export default LingusMisManager;
